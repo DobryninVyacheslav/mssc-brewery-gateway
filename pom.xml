@@ -8,7 +8,7 @@
         <version>2.4.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>guru.github.sfg-beer-works</groupId>
+    <groupId>com.github.sfg-beer-works</groupId>
     <artifactId>mssc-brewery-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mssc-brewery-gateway</name>
@@ -29,6 +29,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-circuitbreaker-reactor-resilience4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
